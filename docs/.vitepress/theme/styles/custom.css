@@ -1,6 +1,9 @@
 :root {
-    --vt-c-text-dark-3:rgba(235, 235, 235, .38);
+    --vt-c-text-dark-3: rgba(235, 235, 235, .38);
     --vp-code-lang-color: var(--vt-c-text-dark-3);
     /* 代码块背景色 */
     --vp-code-block-bg: #292d3e;
+    /* code group label color */
+    --vp-code-tab-text-color: #fff;
+    --vp-code-tab-active-text-color: #fff;
 }

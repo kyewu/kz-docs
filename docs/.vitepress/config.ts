@@ -51,7 +51,8 @@ export default defineConfig({
           text: '开始',
           collapsed: true,
           items: [
-            { text: "快速开始", link: "/vue/quickstart" }
+            { text: "快速开始", link: "/vue/quickstart" },
+            { text: "props", link: "/vue/props" },
           ]
         }
       ],
