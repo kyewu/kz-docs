@@ -48,11 +48,12 @@ export default defineConfig({
           ]
         },
         {
-          text: '开始',
+          text: 'Start',
           collapsed: true,
           items: [
-            { text: "快速开始", link: "/vue/quickstart" },
+            { text: "Quick Start", link: "/vue/quickstart" },
             { text: "props", link: "/vue/props" },
+            { text: "dynamic import image", link: "/vue/image" },
           ]
         }
       ],
@@ -67,7 +68,10 @@ export default defineConfig({
           text: 'Javascript',
           collapsed: true,
           items: [
-            { text: "内容", link: "/interview/javascript" }
+            { text: "Base Types", link: "/interview/base-types" },
+            { text: "Hosting", link: "/interview/hoisting" },
+            { text: "Closure", link: "/interview/closure" },
+            { text: "This", link: "/interview/this" },
           ]
         }
       ],
